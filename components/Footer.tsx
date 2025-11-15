@@ -39,9 +39,8 @@ const Footer: React.FC<FooterProps> = ({ setView }) => {
           <div>
             <h3 className="text-text-main font-semibold tracking-wider uppercase">Follow Us</h3>
             <div className="flex mt-4 space-x-4">
-              <a href="#" className="text-text-secondary hover:text-primary transition-colors"><Instagram /></a>
-              <a href="#" className="text-text-secondary hover:text-primary transition-colors"><Linkedin /></a>
-              <a href="#" className="text-text-secondary hover:text-primary transition-colors"><Twitter /></a>
+              <a href="https://www.instagram.com/pk_priyanka_kataria/" className="text-text-secondary hover:text-primary transition-colors"><Instagram /></a>
+              <a href="https://www.linkedin.com/in/priyanka-kataria-4a4aba255/" className="text-text-secondary hover:text-primary transition-colors"><Linkedin /></a>
             </div>
           </div>
         </div>

@@ -19,9 +19,7 @@ const Header: React.FC<HeaderProps> = ({ setView, searchTerm, setSearchTerm, cat
 
   return (
     <header className="bg-surface/80 backdrop-blur-sm sticky top-0 z-50 border-b border-border-color">
-      <div className="bg-text-main text-center py-2">
-        <p className="text-xs sm:text-sm text-background tracking-wider">Free shipping on orders over $100</p>
-      </div>
+    
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
           <div className="flex items-center gap-8">
